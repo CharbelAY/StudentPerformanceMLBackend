@@ -1,0 +1,18 @@
+Get http://localhost:3000/accessroutes
+
+
+###
+
+Get http://localhost:3000/accessroutes/23
+
+
+###
+
+POST http://localhost:3000/accessroutes
+Content-Type: application/json
+
+
+{
+    "question":"what is your name",
+    "answers":["samir","mansour"]
+}
