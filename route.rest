@@ -3,7 +3,7 @@ Get http://localhost:3000/accessroutes
 
 ###
 
-Get http://localhost:3000/accessroutes/23
+Get http://localhost:3000/accessroutes/5d8aa25bbf13723177a1986c
 
 
 ###
@@ -15,4 +15,20 @@ Content-Type: application/json
 {
     "question":"what is your name",
     "answers":["samir","mansour"]
+}
+
+###
+
+DELETE http://localhost:3000/accessroutes/5d8aa25bbf13723177a1986c
+
+
+###
+
+PATCH http://localhost:3000/accessroutes/5d8aa6547c6e4c3230363653
+
+Content-Type: application/json
+
+{
+    "question":"How old are you",
+    "answers":["Not very old","34"]
 }
